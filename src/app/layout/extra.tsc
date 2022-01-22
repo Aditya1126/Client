@@ -1,0 +1,14 @@
+ elements={NavLink}
+                        to={path}
+                        key={path}
+                        sx={{color:'inherit',typography:'h6'}}
+
+
+
+                        <List>
+                    {midLink.map((title, path) =>(
+                        <ListItem>
+                            {title}
+                        </ListItem>
+                    ))}
+                </List>
